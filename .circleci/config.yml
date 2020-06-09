@@ -31,7 +31,7 @@ jobs:
             terraform init
             terraform apply -auto-approve
       - persist_to_workspace:
-          root: /root
+          root: /vi  /root/.terraform.d/credentials.tfrc.jso
           paths:
             - project
   run-inspec-tests:
