@@ -1,7 +1,7 @@
 module "vpc" {
   source = "hhttps://github.com/swatiroy19/terraform-aws-vpc"
 
-  name = "my-vpc"
+  name = "gaurav-vpc"
   cidr = "10.0.0.0/16"
 
   azs             = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
