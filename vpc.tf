@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "hhttps://github.com/swatiroy19/terraform-aws-vpc"
+  source = "https://github.com/swatiroy19/terraform-aws-vpc"
 
   name = "gaurav-vpc"
   cidr = "10.0.0.0/16"
